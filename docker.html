@@ -1,0 +1,286 @@
+
+<!DOCTYPE HTML>
+<!--
+-->
+<html>
+<head>
+<title>West-code</title>
+<link rel="shortcut icon" href="http://www.west-code.org/images/west_favicon.png"/>
+<meta http-equiv="content-type" content="http://www.west-code.org/text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<!--[if lte IE 8]><script src="http://www.west-code.org/css/ie/html5shiv.js"></script><![endif]-->
+<script src="http://www.west-code.org/js/jquery.min.js"></script>
+<script src="http://www.west-code.org/js/jquery.dropotron.min.js"></script>
+<script src="http://www.west-code.org/js/skel.min.js"></script>
+<script src="http://www.west-code.org/js/skel-layers.min.js"></script>
+<script src="http://www.west-code.org/js/init.js"></script>
+<script src="http://www.west-code.org/js/Chart.js"></script>
+<!-- Search Functionality -->
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript"  src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript"  src="https://cdn.datatables.net/rowreorder/1.2.5/js/dataTables.rowReorder.min.js"></script>
+<script type="text/javascript"  src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+<noscript>
+<link rel="stylesheet" href="http://www.west-code.org/css/skel.css" />
+<link rel="stylesheet" href="http://www.west-code.org/css/style.css" />
+<link rel="stylesheet" href="http://www.west-code.org/css/style-wide.css" />
+</noscript>
+<!-- Search Functionality CSS-->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/rowreorder/1.2.5/css/rowReorder.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
+
+<!--[if lte IE 8]><link rel="stylesheet" href="http://www.west-code.org/css/ie/v8.css" /><![endif]-->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63660203-1', 'auto');
+ga('send', 'pageview');
+</script>
+</head>
+<!--  -->
+<body>
+<!-- Header -->
+<div id="header">
+<!-- Logo
+<div style="background-color: #666">
+<a href="http://www.west-code.org" style="border-bottom:none;"><img src="images/logo-west-header7.png" width="300px" alt=""></a>
+</div>
+-->
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.php">Home</a></li>
+                            <li>
+                                <a href="what-is-west.php">About</a>
+<!--
+                                <ul>
+                                    <li><a href="what-is-west.php">What is WEST?</a></li>
+                                    <li><a href="team.php">Team</a></li>
+                                    <li><a href="contacts.php">Contacts</a></li>
+                                </ul>
+-->
+                            </li>
+                            <li><a href="download.php">Download</a></li>
+							<li><a href="documentation.php">Documentation</a></li>
+							<li><a href="publications.php">Publications</a></li>
+                            <li><a href="news.php">News</a></li>
+                            <li><a href="http://www.west-code.org/database/index.php">Data Collections</a></li>
+							<li class="current"><a href="docker.html">Docker Instances</a></li>
+                            <li><a href="people.php" target="_blank">People</a></li>
+						</ul>
+					</nav>
+
+        </div>
+
+<section class="wrapper style2">
+    <div class="container" id="paperContainer">
+        <hr/>
+            <div id="divWest">
+                <table id="tblWest" class="display nowrap" style="width:100%" data-stripe-classes="[]">
+                    <thead>
+                    <tr>
+                        <th>Docker Id</th>
+                        <th>Properties</th>
+                        <th>lcc</th>
+                        <th>lapack</th>
+                        <th>xerces</th>
+                        <th>mpich</th>
+                        <th>openmpi</th>
+                        <th>scalapack</th>
+                        <th>fftw</th>
+                        <th>python</th>
+                    </tr>
+                    </thead>
+                    <tfoot>
+                    <tr>
+                        <th>Docker Id</th>
+                        <th>Properties</th>
+                        <th>lcc</th>
+                        <th>lapack</th>
+                        <th>xerces</th>
+                        <th>mpich</th>
+                        <th>openmpi</th>
+                        <th>scalapack</th>
+                        <th>fftw</th>
+                        <th>python</th>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+    </div>
+</section>
+
+		
+
+
+
+<!-- CTA -->
+            <section id="cta" class="wrapper style3">
+				<div class="container">
+					<header>
+<!--						<h2>Any questions?</h2>
+						<a href="forum.php" class="button">Check the Forum</a>
+-->					</header>
+				</div>
+			</section>
+
+
+
+<!-- Footer -->
+<div id="footer">
+
+<ul class="icons">
+<li> <a href="http://www.uchicago.edu"><img src="http://www.west-code.org/template/logo.rgb.maroon.png" alt="" width="250" align="middle"/> </a></li>
+<li> <a href="http://www.anl.gov"><img src="http://www.west-code.org/template/anl.png" alt="" width="200" align="middle"/> </a></li>
+</ul>
+
+<!--	 Copyright -->
+<div class="copyright">
+<ul class="menu">
+<li> UChicago and ANL </li><li> 2014-2019 </li>
+
+</ul>
+</div>
+
+</div>
+</body>
+<script>
+// YAML file to Javascript object
+var allWestList = null;
+function readTextFile(file) {
+    var rawFile = new XMLHttpRequest(); // XMLHttpRequest (often abbreviated as XHR) is a browser object accessible in JavaScript that provides data in XML, JSON, but also HTML format, or even a simple text using HTTP requests.
+    rawFile.open("GET", file, false); // open with method GET the file with the link file ,  false (synchronous)
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4) // readyState = 4: request finished and response is ready
+        {
+            if(rawFile.status === 200) // status 200: "OK"
+            {
+                var allText = rawFile.responseText; //  Returns the response data as a string
+                allWestList = JSON.parse(allText.trim());
+				//console.log(jsonText); // display text on the console
+            }
+        }
+    }
+    rawFile.send(null); //Sends the request to the server Used for GET requests with param null
+}
+
+readTextFile("master.json");
+
+$(function () {
+        $("#tblWest").DataTable({
+            "data": allWestList,
+            "serverSide": false,
+            "lengthMenu": [[10, 25, 50, 100, 500, -1],
+                [10, 25, 50, 100, 500, "All"]],
+            "pageLength": 10,
+            "responsive": true,
+            "columns": [
+                {
+                    "data": 'id',
+                    "visible": true,
+                    "searchable": true,
+                    "sortable": true
+                },
+				{
+                    "data": null,
+                    "visible": true,
+                    "searchable": true,
+                    "sortable": true,
+                    "render": function (data, type, row, meta) {
+                        var Fields = "";
+                        Object.keys(row).forEach(function(key) {
+                            if("id" != key) {
+
+                                var labelField = "<div class='form-group'> <label style='float:left; margin-right:10px;'>" + key + ":</label>";
+                                var value = row[key];
+                                var valueField = "<p>";
+                                if(value.hasOwnProperty("link")){
+                                    valueField = valueField + "<a href='"+ value['link']+"' target='_blank'>"+value['version']+"</a>";
+                                }else{
+                                    valueField = valueField +value['version'];
+                                }
+
+                                valueField = valueField + "</p> </div>";
+                                Fields = Fields + labelField + valueField ;
+                                console.log(key, row[key]);
+                            }
+                        });
+                        return Fields;
+                    }
+                },
+                {
+                    "data": 'gcc',
+                     "visible": false,
+                    "searchable": false,
+                    "sortable": false
+                },
+                {
+                    "data": 'lapack',
+                     "visible": false,
+                    "searchable": false,
+                    "sortable": false
+                },
+                {
+                    "data": 'xerces',
+                     "visible": false,
+                    "searchable": false,
+                    "sortable": false
+                },
+                {
+                    "data": 'openmpi',
+                    "visible": false,
+                    "searchable": false,
+                    "sortable": false,
+					                    "defaultContent": "<i>Not set</i>"
+
+                },
+                {
+                    "data": 'mpich',
+                     "visible": false,
+                    "searchable": false,
+                    "sortable": false,
+					                    "defaultContent": "<i>Not set</i>"
+
+                },
+                {
+                    "data": 'scalapack',
+                     "visible": false,
+                    "searchable": false,
+                    "sortable": false
+                },
+                {
+                    "data": 'fftw',
+                     "visible": false,
+                    "searchable": false,
+                    "sortable": false
+                },
+                {
+                    "data": 'python',
+                    "visible": false,
+                    "searchable": false,
+                    "sortable": false
+                }
+            ],
+            "search": {
+                "caseInsensitive": true,
+                "regex": false,
+                "smart": true,
+                "placeholder": "Enter search here"
+            },
+            "language":{
+                "search": '<i class="fa fa-search"></i>',
+                "searchPlaceholder": "Enter text here"
+            }
+        });
+
+    });
+</script>
+</html>

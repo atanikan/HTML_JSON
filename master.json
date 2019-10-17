@@ -1,0 +1,182 @@
+[
+	{
+		"id": "gcc650_0001",
+		"gcc": {
+			"version": "6.5.0"
+		},
+		"lapack": {
+			"version": "3.8.0",
+			"link": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz"
+		},
+		"xerces": {
+			"version": "3.2.1",
+			"link": "http://archive.apache.org/dist/xerces/c/3/sources/xerces-c-3.2.1.tar.gz"
+		},
+		"openmpi": {
+			"version": "3.1.3",
+			"link": "https://download.open-mpi.org/release/open-mpi/v3.1/openmpi-3.1.3.tar.gz"
+		},
+		"scalapack": {
+			"version": "2.0.2",
+			"link": "http://www.netlib.org/scalapack/scalapack-2.0.2.tgz"
+		},
+		"fftw": {
+			"version": "3.3.8",
+			"link": "http://www.fftw.org/fftw-3.3.8.tar.gz"
+		},
+		"python": {
+			"version": "3.7.3",
+			"pip": "19.0.3"
+		}
+	},
+	{
+		"id": "gcc650_0002",
+		"gcc": {
+			"version": "6.5.0"
+		},
+		"lapack": {
+			"version": "3.8.0",
+			"link": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz"
+		},
+		"xerces": {
+			"version": "3.2.1",
+			"link": "http://archive.apache.org/dist/xerces/c/3/sources/xerces-c-3.2.1.tar.gz"
+		},
+		"mpich": {
+			"version": "3.1.4",
+			"link": "http://www.mpich.org/static/downloads/3.1.4/mpich-3.1.4.tar.gz"
+		},
+		"scalapack": {
+			"version": "2.0.2",
+			"link": "http://www.netlib.org/scalapack/scalapack-2.0.2.tgz"
+		},
+		"fftw": {
+			"version": "3.3.8",
+			"link": "http://www.fftw.org/fftw-3.3.8.tar.gz"
+		},
+		"python": {
+			"version": "3.7.3",
+			"pip": "19.0.3"
+		}
+	},
+	{
+		"id": "gcc740_0001",
+		"gcc": {
+			"version": "7.4.0"
+		},
+		"lapack": {
+			"version": "3.8.0",
+			"link": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz"
+		},
+		"xerces": {
+			"version": "3.2.1",
+			"link": "http://archive.apache.org/dist/xerces/c/3/sources/xerces-c-3.2.1.tar.gz"
+		},
+		"openmpi": {
+			"version": "3.1.3",
+			"link": "https://download.open-mpi.org/release/open-mpi/v3.1/openmpi-3.1.3.tar.gz"
+		},
+		"scalapack": {
+			"version": "2.0.2",
+			"link": "http://www.netlib.org/scalapack/scalapack-2.0.2.tgz"
+		},
+		"fftw": {
+			"version": "3.3.8",
+			"link": "http://www.fftw.org/fftw-3.3.8.tar.gz"
+		},
+		"python": {
+			"version": "3.7.3",
+			"pip": "19.0.3"
+		}
+	},
+	{
+		"id": "gcc740_0002",
+		"gcc": {
+			"version": "7.4.0"
+		},
+		"lapack": {
+			"version": "3.8.0",
+			"link": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz"
+		},
+		"xerces": {
+			"version": "3.2.1",
+			"link": "http://archive.apache.org/dist/xerces/c/3/sources/xerces-c-3.2.1.tar.gz"
+		},
+		"mpich": {
+			"version": "3.1.4",
+			"link": "http://www.mpich.org/static/downloads/3.1.4/mpich-3.1.4.tar.gz"
+		},
+		"scalapack": {
+			"version": "2.0.2",
+			"link": "http://www.netlib.org/scalapack/scalapack-2.0.2.tgz"
+		},
+		"fftw": {
+			"version": "3.3.8",
+			"link": "http://www.fftw.org/fftw-3.3.8.tar.gz"
+		},
+		"python": {
+			"version": "3.7.3",
+			"pip": "19.0.3"
+		}
+	},
+	{
+		"id": "gcc830_0001",
+		"gcc": {
+			"version": "8.3.0"
+		},
+		"lapack": {
+			"version": "3.8.0",
+			"link": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz"
+		},
+		"xerces": {
+			"version": "3.2.1",
+			"link": "http://archive.apache.org/dist/xerces/c/3/sources/xerces-c-3.2.1.tar.gz"
+		},
+		"openmpi": {
+			"version": "3.1.3",
+			"link": "https://download.open-mpi.org/release/open-mpi/v3.1/openmpi-3.1.3.tar.gz"
+		},
+		"scalapack": {
+			"version": "2.0.2",
+			"link": "http://www.netlib.org/scalapack/scalapack-2.0.2.tgz"
+		},
+		"fftw": {
+			"version": "3.3.8",
+			"link": "http://www.fftw.org/fftw-3.3.8.tar.gz"
+		},
+		"python": {
+			"version": "3.7.3",
+			"pip": "19.0.3"
+		}
+	},
+	{
+		"id": "gcc830_0002",
+		"gcc": {
+			"version": "8.3.0"
+		},
+		"lapack": {
+			"version": "3.8.0",
+			"link": "http://www.netlib.org/lapack/lapack-3.8.0.tar.gz"
+		},
+		"xerces": {
+			"version": "3.2.1",
+			"link": "http://archive.apache.org/dist/xerces/c/3/sources/xerces-c-3.2.1.tar.gz"
+		},
+		"mpich": {
+			"version": "3.1.4",
+			"link": "http://www.mpich.org/static/downloads/3.1.4/mpich-3.1.4.tar.gz"
+		},
+		"scalapack": {
+			"version": "2.0.2",
+			"link": "http://www.netlib.org/scalapack/scalapack-2.0.2.tgz"
+		},
+		"fftw": {
+			"version": "3.3.8",
+			"link": "http://www.fftw.org/fftw-3.3.8.tar.gz"
+		},
+		"python": {
+			"version": "3.7.3",
+			"pip": "19.0.3"
+		}
+	}
+]
